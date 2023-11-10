@@ -102,6 +102,10 @@ a:hover {
   .socials {
     font-size: 1rem;
   }
+
+  .container {
+    margin-block-start: 15rem;
+  }
 }
 
 @media only screen and (max-width: 31.5625rem) {
@@ -117,6 +121,10 @@ a:hover {
     width: 150px;
     height: 150px;
   }
+
+  .container {
+    margin-block-start: 10rem;
+  }
 }
 
 @media only screen and (max-width: 20rem) {
@@ -126,5 +134,9 @@ a:hover {
 
   .socials {
     font-size: 0.75rem;
+  }
+
+  .container {
+    margin-block-start: 5rem;
   }
 }
