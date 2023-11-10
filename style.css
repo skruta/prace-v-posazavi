@@ -46,9 +46,7 @@ a:hover {
 .container {
   width: min(100% - 10rem, 60rem);
   margin-inline: auto;
-  margin-block-start: 20rem;
-  /* height: 100svh; */
-  /* height: 100vh; */
+  margin-top: clamp(5rem, 2rem + 15vw, 20rem);
 
   display: flex;
   flex-direction: column;
@@ -102,10 +100,6 @@ a:hover {
   .socials {
     font-size: 1rem;
   }
-
-  .container {
-    margin-block-start: 15rem;
-  }
 }
 
 @media only screen and (max-width: 31.5625rem) {
@@ -121,10 +115,6 @@ a:hover {
     width: 150px;
     height: 150px;
   }
-
-  .container {
-    margin-block-start: 10rem;
-  }
 }
 
 @media only screen and (max-width: 20rem) {
@@ -134,9 +124,5 @@ a:hover {
 
   .socials {
     font-size: 0.75rem;
-  }
-
-  .container {
-    margin-block-start: 5rem;
   }
 }
